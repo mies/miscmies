@@ -1,1 +1,6 @@
 Various scripts, tools and utilities
+
+performance_measuring folder:
+tsung_cdf_parser.py - a parser and CDF (Cumulative distribution function) calculator for Tsung's request.txt log file (the file generated in the data folder after running tsung_stats.pl)
+usage: python tsung_parser.py request.txt > OUTPUT.txt
+
